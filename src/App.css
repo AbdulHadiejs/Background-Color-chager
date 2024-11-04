@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.red-bg{
+    background-color: #dc2626;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.green-bg{
+    background-color: #16a34a;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Blue-bg{
+    background-color: #2563eb;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Purple-bg{
+    background-color: #9333ea;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Lime-bg{
+    background-color: #65a30d;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Gray-bg{
+    background-color: #4b5563;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Yellow-bg{
+    background-color: #ca8a04;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Pink-bg{
+    background-color: #db2777;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Slate-bg{
+    background-color: #475569;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Black-bg{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.White-bg{
+    background-color: #cbd5e1;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.container{
+    height: 24vh;
+    padding-top: 35%;
+}
+
+.bg-color{
+    background-color: white;
+    width: 140vh;
+    padding: 10px;
+    margin: auto;
+    height: 50px;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    height: 30px;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: enterColor;
+    transform: scale(1.05);
+  }
+  
+  /* Active effect */
+  button:active {
+    background-color: enterColor;
+    transform: scale(0.98);
+  }
+  
+  /* Disabled state */
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  
